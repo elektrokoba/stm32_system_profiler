@@ -1,0 +1,39 @@
+# .gitignore for STM32 Project
+
+# Build directories
+build/
+Debug/
+Release/
+.settings/
+
+# STM32CubeIDE specific
+.metadata/
+.launches/
+*.launch
+
+# Object files
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Compiled libraries
+*.a
+*.so
+*.lib
+
+# Temporary files
+*.swp
+*.bak
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
